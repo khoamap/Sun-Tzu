@@ -1,0 +1,5 @@
+static WeakReference<ZaloLauncherActivity> INSTANCE;
+    static boolean firstRun = true;
+    static boolean hasSavedInstanceState = false;
+    static boolean isWritedLogCheckBackground = false;
+    boolean logOutCase = false;
